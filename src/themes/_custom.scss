@@ -1,0 +1,110 @@
+@import "./variables";
+
+.b-1 {
+  border: 1px solid $abs-light-grey !important;
+}
+.bb-1 {
+  border-bottom: 1px solid $abs-light-grey !important;
+}
+.bt-1 {
+  border-top: 1px solid $abs-light-grey !important;
+}
+.b-orange {
+  border: 2px solid $abs-orange !important;
+}
+.bg-blue {
+  background-color: $abs-blue !important;
+}
+.bg-dark-grey {
+  background-color: $abs-dark-grey !important;
+}
+.bg-green {
+  background-color: $abs-green !important;
+}
+.bg-grey {
+  background-color: $abs-grey !important;
+}
+.bg-light-blue {
+  background-color: $abs-black !important;
+}
+.bg-light-blue {
+  background-color: $abs-light-blue !important;
+}
+.bg-light-grey {
+  background-color: $abs-light-grey !important;
+}
+.bg-orange {
+  background-color: $abs-orange !important;
+}
+.bg-red {
+  background-color: $abs-red !important;
+}
+.bg-white {
+  background-color: $abs-white !important;
+}
+.bg-yellow {
+  background-color: $abs-yellow !important;
+}
+.mh-50 {
+  min-height: 50px !important;
+}
+.mt-15 {
+  margin-top: 15px !important;
+}
+.mb-15 {
+  margin-bottom: 15px !important;
+}
+.mr-15 {
+  margin-right: 15px !important;
+}
+.ml-15 {
+  margin-left: 15px !important;
+}
+.pt-25 {
+  padding-top: 25px !important;
+}
+.pb-25 {
+  padding-bottom: 25px !important;
+}
+.selected {
+  background-color: $abs-light-blue-grey;
+}
+.text-align-right {
+  text-align: right;
+}
+.text-align-left {
+  text-align: left;
+}
+.text-color-blue {
+  color: $abs-blue !important;
+}
+.text-color-dark-grey {
+  color: $abs-dark-grey !important;
+}
+.text-color-green {
+  color: $abs-green !important;
+}
+.text-color-grey {
+  color: $abs-grey !important;
+}
+.text-color-black {
+  color: $abs-black !important;
+}
+.text-color-light-blue {
+  color: $abs-light-blue !important;
+}
+.text-color-light-grey {
+  color: $abs-light-grey !important;
+}
+.text-color-orange {
+  color: $abs-orange !important;
+}
+.text-color-red {
+  color: $abs-red !important;
+}
+.text-color-white {
+  color: $abs-white !important;
+}
+.text-color-yellow {
+  color: $abs-yellow !important;
+}

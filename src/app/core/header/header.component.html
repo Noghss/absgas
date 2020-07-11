@@ -1,0 +1,80 @@
+<header id="header">
+  <div ngClass="container-fluid">
+    <div class="wrp-mobile-hide">
+      <div class="row">
+        <nav id="horizontal-menu">
+          <a [routerLink]="['/dashboard']">
+            <figure id="name-logo">
+              <img src="../../../assets/images/abs_logo.svg" alt="Abs Gás" />
+            </figure>
+          </a>
+
+          <ul>
+            <li>
+              <a id="link-customer" [routerLink]="['/quem-somos']">
+                Quem Somos
+              </a>
+            </li>
+            <li>
+              <a id="link-receiving" [routerLink]="['/para-casa']">
+                Para Casa
+              </a>
+            </li>
+            <li>
+              <a id="link-tracking" [routerLink]="['/para-condominio']">
+                Para Condomínio
+              </a>
+            </li>
+            <li>
+              <a id="link-shipping" [routerLink]="['/revendedor']">
+                Revendedor
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="wrp-mobile-show">
+      <div class="row">
+        <nav id="horizontal-menu">
+          <div class="mobile-header-menu-item-hidden">
+            <!-- Flex Spacer -->
+          </div>
+          <a class="mobile-header-menu-item" [routerLink]="['/dashboard']">
+            <figure id="name-logo">
+              <img src="../../../assets/images/abs_logo.svg" alt="Abs Gás" />
+            </figure>
+          </a>
+          <div class="mobile-header-menu-item wrp-mobile-menu-icon">
+            <mdb-icon (click)="this.toggleMenu()" fas icon="bars"></mdb-icon>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="row mobile-menu-dropdown"
+        [ngStyle]="this.displayMenuMobile ? { display: 'block' } : ''"
+      >
+        <ul>
+          <li class="mobile-menu-dropdown-item" (click)="this.toggleMenu()">
+            <a id="link-customer" [routerLink]="['/quem-somos']">
+              Quem Somos
+            </a>
+          </li>
+          <li class="mobile-menu-dropdown-item" (click)="this.toggleMenu()">
+            <a id="link-receiving" [routerLink]="['/para-casa']"> Para Casa </a>
+          </li>
+          <li class="mobile-menu-dropdown-item" (click)="this.toggleMenu()">
+            <a id="link-shipping" [routerLink]="['/para-condominio']">
+              Para Condomínio
+            </a>
+          </li>
+          <li class="mobile-menu-dropdown-item" (click)="this.toggleMenu()">
+            <a id="link-tracking" [routerLink]="['/revendedor']">
+              Revendedor
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>

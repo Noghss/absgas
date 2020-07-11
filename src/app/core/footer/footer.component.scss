@@ -1,0 +1,46 @@
+footer {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background: #cb6015;
+  color: #fff;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  height: 44px;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+a {
+  -webkit-text-decoration-skip: objects;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.valmont-footer a {
+  color: #fff;
+  padding: 0.4375rem 0.625rem;
+}
+
+.valmont-footer a.valmont-footer-link {
+  font-size: 0.875rem;
+  margin-left: auto;
+}
+
+.privacy-terms,
+.brand {
+  font-size: 10px;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+a:active {
+  color: inherit;
+}

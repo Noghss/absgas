@@ -1,0 +1,19 @@
+.app-container {
+  background-color: #ededed;
+  display: flex !important;
+  flex-direction: column !important;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+main {
+  flex: 1 !important;
+}
+abs-header {
+  z-index: 1;
+}
+abs-footer {
+  z-index: 1;
+}
